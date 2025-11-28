@@ -10,7 +10,7 @@ if [ -z "$DNS" ]; then
     exit 1
 fi
 
-# RBL list (keep cbl.anti-spam.org.cn)
+# RBL list
 RBL_LIST="\
 bl.spamcop.net \
 cbl.abuseat.org \
